@@ -1,4 +1,4 @@
-# Freight Payment AI Assistant – MongoDB Atlas Vector Search Demo
+# Freight Payment AI Assistant 
 
 This repository demonstrates how to power an AI-driven Freight Payment dashboard using **MongoDB Atlas Vector Search** and **Voyage AI embeddings**. The goal is to show how semantic search can identify related invoice events, carrier issues, and audit alerts—supporting an assistant experience like the example UI.
 

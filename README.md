@@ -46,8 +46,8 @@ pip install -r requirements.txt
 Set:
 
 ```python
-MONGODB_URI = "<your MongoDB Atlas connection string>"
-VOYAGE_API_KEY = "<your VoyageAI key>"
+MONGODB_URI = ""
+VOYAGE_API_KEY = ""
 ```
 
 ### 3. Run the embedding pipeline

@@ -64,14 +64,10 @@ class Settings(BaseSettings):
         description="Log format"
     )
     
-    # Caching Configuration
-    redis_url: str = Field(
-        default="redis://localhost:6379/0",
-        description="Redis connection URL for caching"
-    )
+    # Simple caching Configuration  
     cache_ttl: int = Field(
         default=3600,
-        description="Cache TTL in seconds"
+        description="In-memory cache TTL in seconds"
     )
     
     # Search Configuration

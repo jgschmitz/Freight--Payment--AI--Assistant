@@ -26,7 +26,7 @@ Transform your freight payment operations with intelligent document analysis, an
 
 ### 🔧 **Production-Ready Architecture**
 - **FastAPI Backend**: High-performance async API with automatic documentation
-- **Caching Layer**: Redis-powered caching for optimal performance
+- **Smart Caching**: In-memory caching for optimal performance
 - **Comprehensive Logging**: Structured logging with performance monitoring
 - **Configuration Management**: Environment-based configuration system
 
@@ -46,7 +46,7 @@ graph TB
     B --> D[Analytics Service]
     C --> E[MongoDB Atlas<br/>Vector Search]
     C --> F[VoyageAI<br/>Embeddings]
-    B --> G[Redis Cache]
+    B --> G[In-Memory Cache]
     B --> H[Structured Logging]
 ```
 
@@ -228,7 +228,6 @@ insights = await analytics.get_trends(days=30)
 ```env
 # Cache settings
 CACHE_TTL=3600
-REDIS_URL=redis://localhost:6379/0
 
 # Search optimization
 VECTOR_SEARCH_CANDIDATES=200

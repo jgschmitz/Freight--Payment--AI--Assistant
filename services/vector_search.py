@@ -1,6 +1,6 @@
 """
 Vector Search Service for Freight Payment AI Assistant
-Enhanced version of the original search functionality with caching and error handling
+Enhanced version of the original search functionality with simple caching and error handling
 """
 import asyncio
 import logging

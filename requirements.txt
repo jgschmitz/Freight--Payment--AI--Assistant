@@ -1,4 +1,4 @@
-# Your existing core dependencies
+# Your existing core dependencies are here 
 pymongo
 voyageai
 

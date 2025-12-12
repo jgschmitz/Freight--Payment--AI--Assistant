@@ -1,0 +1,8 @@
+# Your existing core dependencies
+pymongo
+voyageai
+
+# Web dashboard (optional enhancement)
+fastapi
+uvicorn[standard]
+jinja2

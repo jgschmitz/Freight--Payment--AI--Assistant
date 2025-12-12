@@ -24,7 +24,7 @@ Transform your freight payment operations with intelligent document analysis, an
 - **Interactive Visualizations**: Beautiful charts powered by Plotly
 - **Trend Analysis**: ML-powered pattern detection and forecasting
 
-### 🔧 **Production-Ready Architecture**
+### 🔧 **Demonstration-Ready Architecture**
 - **FastAPI Backend**: High-performance async API with automatic documentation
 - **Smart Caching**: In-memory caching for optimal performance
 - **Comprehensive Logging**: Structured logging with performance monitoring
